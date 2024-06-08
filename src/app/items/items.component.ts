@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ModelloTipo } from '../models/tipi';
 
 @Component({
   selector: 'app-items',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './items.component.css'
 })
 export class ItemsComponent {
-
+@Input()
+transazioneInput?:ModelloTipo;
 }

@@ -1,1 +1,10 @@
-<app-lista-transizioni></app-lista-transizioni>
+<div id="divBox">
+
+    <app-lista-transizioni *ngFor="let transizione of listaIntera">
+        
+     <app-items [transazioneInput]="transizione">
+     </app-items>
+
+    </app-lista-transizioni>
+    
+    </div>

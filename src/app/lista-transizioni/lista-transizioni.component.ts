@@ -1,6 +1,5 @@
-import { Component } from '@angular/core';
-import { ModelloTipo } from '../models/tipi';
-import transition  from '../json/transactions.json';
+import { Component} from '@angular/core';
+
 
 @Component({
   selector: 'app-lista-transizioni',
@@ -8,7 +7,4 @@ import transition  from '../json/transactions.json';
   styleUrl: './lista-transizioni.component.css'
 })
 export class ListaTransizioniComponent {
-     listaIntera:ModelloTipo[]=transition
 }
-
-
